@@ -10,7 +10,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 public class AppConfig {
 
     @Bean
-    public DriverManagerDataSource dataSource(){
+    public DriverManagerDataSource dataSource() {
         DriverManagerDataSource ret = new DriverManagerDataSource();
         ret.setDriverClassName("org.h2.Driver");
         ret.setUsername("sa");
